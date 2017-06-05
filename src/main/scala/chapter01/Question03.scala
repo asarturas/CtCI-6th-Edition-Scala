@@ -1,5 +1,9 @@
 package chapter01
 
+/**
+  * Iterate through string building the other one (adding "%20" instead of space).
+  */
+
 object UrlifyManually {
   def urlify(str: String): String = {
     def iter(str: String, acc: String = ""): String = {

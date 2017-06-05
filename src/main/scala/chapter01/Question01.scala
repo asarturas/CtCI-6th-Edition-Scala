@@ -1,5 +1,10 @@
 package chapter01
 
+/**
+  * Iterate through the string building up an index of existing characters.
+  * Before adding new char to the index - check if it already exists there.
+  */
+
 object IsUniqueCustom {
   def isUnique(str: String): Boolean = {
     def isUniqueIter(str: String, existingChars: String = ""): Boolean =
